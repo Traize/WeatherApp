@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;600&display=swap');
+
+*{
+    box-sizing: border-box;
+    color: #4c4c4c;
+}
+
+body{
+    max-height: 813px;
+    display: flex;
+    justify-content: center;
+    font-family: "Montserrat", sans-serif;
+    height: 100vh;
+    
+}
+input{
+    outline: none;
+}
+.container{
+    min-height: 35rem;
+    text-align: center;
+    width: 375px;
+    height: fit-content;
+    background: 
+    linear-gradient(180deg, #6DADEA 0%, rgba(109, 173, 234, 0.32) 100%);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.city__search{
+    margin-top: 2rem;
+    width: 80%;
+    height: 2rem;
+    border: none;
+    border-radius: 5px;
+    padding: 0 1rem;
+}
+.content__location{
+    margin-top: 1rem;
+}
+.content__day{
+    display: inline;
+}
+.content__time{
+    margin-top: 2rem;
+    display: inline;
+}
+.content__temperature{
+    display: flex;
+    margin-top: 2rem;
+    justify-content: center;
+    align-items: center;
+    height: 10rem;
+}
+
+.temperature{
+    padding: 0 2rem;
+    font-weight: 300;
+    font-size: 5rem;
+}
+.weather-img{
+    width: 25%;
+    
+}
+.forecast__tab{
+    display: flex;
+    margin: 3rem 2rem;
+    justify-content: space-between;
+    overflow-x: auto;
+    scrollbar-width: 3px;
+}
+.forecast__day{
+    width: 5rem;
+}
+.forecast__tab::-webkit-scrollbar{
+    height: 0.4rem;
+}
+.forecast__tab::-webkit-scrollbar-thumb{
+    background-color: #6daeea98;
+    border-radius: 15px;
+    width: 0.2rem;
+}
+.forecast__tab::-webkit-scrollbar-track{
+    background-color: rgba(255, 255, 255, 0);
+}
